@@ -1,5 +1,8 @@
 import { useState } from "react"
 
+<link rel='stylesheet' href='style.css'/>
+
+
 
 export const useForm = (inicialState = {}) => {
   

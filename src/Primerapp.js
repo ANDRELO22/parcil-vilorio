@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import './components/style.css'
 
 
 export const Primerapp = () => {

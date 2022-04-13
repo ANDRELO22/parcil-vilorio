@@ -42,6 +42,11 @@
   main {
     display: block;
   }
+
+.ag_usuario{
+  margin-inline-start: right;
+  
+}
   
   /**
    * Correct the font size and margin on `h1` elements within `section` and

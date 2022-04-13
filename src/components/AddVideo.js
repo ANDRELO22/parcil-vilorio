@@ -20,7 +20,6 @@ const AddUsers = (props) => {
   }
 
   return (
-    <div class="ag_usuario">
     <form onSubmit={handleSubmit(onSubmit)}>
       <label>Name</label>
       <input type="text" name="name" {...register('name',{required: true,message: "campo requrido"})}  />
@@ -41,9 +40,7 @@ const AddUsers = (props) => {
        </div>
       <button>Add new user</button>
     </form>
-    </div>
   )
-
 }
 
 export default AddUsers;
